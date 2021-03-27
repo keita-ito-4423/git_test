@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app1">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Hi my first vue!!!"/>
-    <HelloWorld1 msg="Hi my first vue!!! my hello world!!!"/>
+    <HelloWorld msg="111 Hi my first vue!!!"/>
+    <HelloWorld1 msg="111 Hi my first vue!!! my hello world!!!"/>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import HelloWorld1 from './components/HelloWorld1.vue'
 
 export default {
-  name: 'App',
+  name: 'App1',
   components: {
     HelloWorld,
     HelloWorld1,
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-#app {
+#app1 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
